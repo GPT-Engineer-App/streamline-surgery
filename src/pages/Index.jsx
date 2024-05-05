@@ -6,8 +6,8 @@ const Index = () => {
     <Container maxW="container.xl" p={8}>
       <VStack spacing={8} align="stretch">
         <Box p={5} shadow="md" borderWidth="1px" borderRadius="md">
-          <Heading mb={4}>OrthoStream: Orthopedic Department Management</Heading>
-          <Text fontSize="xl">Streamline and automate booking, communication, and documentation in your orthopedic department.</Text>
+          <Heading mb={4}>Streamline Surgical Workflow with the All-in-One Platform</Heading>
+          <Text fontSize="xl">Improve Efficiency, Communication, and Patient Care with Intelligent Scheduling and Management Tools.</Text>
         </Box>
 
         <Stack direction={{ base: "column", md: "row" }} spacing={4} align="center">
@@ -31,17 +31,19 @@ const Index = () => {
           </Box>
         </Stack>
 
-        <Box p={5} shadow="md" borderWidth="1px" borderRadius="md">
+        <Box p={5} shadow="md" borderWidth="1px" borderRadius="md" bgImage="url('/path-to-hero-image.jpg')" bgSize="cover" bgPos="center">
           <Heading size="md" my={2}>
-            <FaPhone /> Communication Tools
+            <FaPhone /> Communication & Alerts
           </Heading>
-          <Text>Integrated communication tools to connect surgical teams, theater staff, and ward personnel.</Text>
+          <Text>Real-time messaging and notifications for surgeons, theater staff, and ward personnel. Automated alerts for schedule changes or emergency additions to keep everyone informed instantly.</Text>
         </Box>
 
-        <Stack spacing={4} direction="row" align="center" justifyContent="center">
-          <Input placeholder="Enter your email" size="md" />
-          <Button colorScheme="blue" px={8}>
-            Subscribe
+        <Stack spacing={4} direction="row" align="center" justifyContent="center" mt={8}>
+          <Button colorScheme="teal" size="lg">
+            Sign up for a Free Trial
+          </Button>
+          <Button colorScheme="orange" size="lg">
+            Schedule a Demo
           </Button>
         </Stack>
 
