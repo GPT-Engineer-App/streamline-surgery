@@ -10,6 +10,21 @@ const Navigation = () => {
       <Link to="/platform-overview">
         <Button colorScheme="blue">Platform Overview</Button>
       </Link>
+      <Link to="/surgeon-scheduling">
+        <Button colorScheme="blue">Surgeon Scheduling</Button>
+      </Link>
+      <Link to="/theater-list-and-stack">
+        <Button colorScheme="blue">Theater List and Stack</Button>
+      </Link>
+      <Link to="/communication-and-alerts">
+        <Button colorScheme="blue">Communication and Alerts</Button>
+      </Link>
+      <Link to="/patient-management-and-tracking">
+        <Button colorScheme="blue">Patient Management and Tracking</Button>
+      </Link>
+      <Link to="/documentation-and-reporting">
+        <Button colorScheme="blue">Documentation and Reporting</Button>
+      </Link>
     </Flex>
   );
 };
